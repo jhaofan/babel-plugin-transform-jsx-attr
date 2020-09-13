@@ -1,0 +1,30 @@
+{
+  "name": "babel-plugin-transform-jsx-attr",
+  "version": "1.0.1",
+  "description": "Babel plugin to transform jsx attributes",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "dev": "babel --no-babelrc demo -d dist",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhaofan/babel-plugin-transform-jsx-attr.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "jsx",
+    "attribute",
+    "JSXAttribute"
+  ],
+  "author": "jhaofan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
